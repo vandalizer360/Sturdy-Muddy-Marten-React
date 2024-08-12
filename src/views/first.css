@@ -1,0 +1,40 @@
+.first-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d6bd9e;
+}
+.first-container1 {
+  width: 945px;
+  height: 840px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://media.discordapp.net/attachments/1207145262473158657/1272419961310150736/front1.png?ex=66bae8ef&is=66b9976f&hm=f223b08741ea907ba33cbd29dced4cd084987af021b821df99535b5f586f6d23&=&format=webp&quality=lossless&width=722&height=722');
+  background-position: center;
+}
+.first-navlink {
+  top: 580px;
+  left: 423px;
+  height: 34px;
+  position: absolute;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.first-navlink:hover {
+  color: #ece1e1;
+  background-color: #25180c;
+}
+.first-navlink:active {
+  animation-name: none;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}

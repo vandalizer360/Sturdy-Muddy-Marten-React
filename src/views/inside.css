@@ -1,0 +1,31 @@
+.inside-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #b63726;
+}
+.inside-link {
+  display: contents;
+}
+.inside-image {
+  width: 538px;
+  height: 773px;
+  align-self: center;
+  object-fit: cover;
+  text-decoration: none;
+}
+.inside-navlink {
+  left: 647px;
+  bottom: 11px;
+  position: absolute;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.inside-navlink:hover {
+  color: #efe1e1;
+  background-color: #2b2012;
+}
+
